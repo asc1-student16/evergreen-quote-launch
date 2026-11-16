@@ -4,7 +4,7 @@
 
 ## Goal
 
-> _One sentence here._
+Customers can successfully obtain accurate insurance quotes through a reliable Evergreen Quote service running in Kubernetes and accessible through both REST and GraphQL APIs.
 
 ## "Done" looks like
 
@@ -18,4 +18,7 @@
 
 ## Out of scope (this week)
 
-- _What you are intentionally not doing._
+- No changes to marketing site
+- NO optional work specified in the lab guide
+- No new products, rates or even new calculations are added. Only sponsored rates, premiums, products will be available
+- No Production S3 deployment
