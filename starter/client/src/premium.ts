@@ -1,13 +1,12 @@
 // The premium logic, typed (provided). The components call this; you never
-// modify the function. (These are the Phase 2-era rates the
-// app shipped with. CONFIG: Day 2 aligns them with the API's standardized
-// rates; the values are the only thing that changes.)
+// modify the function. (Solution state: aligned with the API's
+// standardized rates per the sponsor's launch decision.)
 import type { CoverageType } from "./types";
 
 const BASE_RATES: Record<CoverageType, number> = {
-  auto: 85,
-  home: 130,
-  life: 65,
+  auto: 90,
+  home: 135,
+  life: 70,
 };
 
 export function calculatePremium(
