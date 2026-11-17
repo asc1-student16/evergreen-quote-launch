@@ -24,7 +24,7 @@ export interface NewQuoteInput {
 
 function toQuote(doc: ApiQuote): Quote {
   return {
-    id: doc.id,
+    id: doc._id,
     type: doc.type,
     age: doc.age,
     coverageAmount: doc.coverageAmount,
