@@ -1,0 +1,21 @@
+# Dependencies (api/, client/, anywhere)
+node_modules/
+
+# Build output
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Local env overrides (the .env files the lab edits stay tracked)
+.env.local
+.env.*.local
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
